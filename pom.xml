@@ -26,21 +26,9 @@
 	</properties>
 
 	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://13.234.217.238:8081/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://13.234.217.238:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<scm>
-		<connection>scm:git:git@github.com:keshavkummari/javacode.git</connection>
-		<developerConnection>scm:git:git@github.com:keshavkummari/javacode.git</developerConnection>
+		<connection>scm:git:git@github.com:searec/javacode.git</connection>
+		<developerConnection>scm:git:git@github.com:searec/javacode.git</developerConnection>
 		<url>git@github.com:keshavkummari/javacode.git</url>
 		<tag>HEAD</tag>
 	</scm>
